@@ -30,8 +30,5 @@ A three-tier hierarchical network: one core router connects to two Core switches
 Working through this project helped me understand how VLAN trunking, inter-VLAN routing, and IPv6 SLAAC work in practice, not just in theory. One issue that stood out: an SVI wasn't coming up, and I spent about 30 minutes troubleshooting the configuration before realizing it was actually a Packet Tracer glitch, bouncing the interface fixed it. That taught me to test simple fixes early rather than assuming every issue is a misconfiguration.
 
 
-Don't paste full running-configs unless they're clean and commented. A wall of raw CLI output is boring to read. Summarize what matters.
-Keep the topology screenshot near the top — that's the first thing anyone glances at to understand scope.
-Want to fill this out together using your actual setup (site count, VLAN scheme, what you configured)?
 
 
